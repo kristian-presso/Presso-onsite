@@ -46,10 +46,10 @@
               <a class="nav-link" href="#">Sponsors</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link">Messages</a>
+              <a class="nav-link" href="#">Messages</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link">Settings</a>
+              <a class="nav-link" href="#">Settings</a>
             </li>
           </ul>
     
@@ -72,10 +72,15 @@
             <h1 class="h2 fw-bold">My Events</h1>
             </div>
             <div class="col d-flex justify-content-end">
-              <!-- Button trigger modal -->
-              <button id="create-new-event" type="button" class="btn btn-outline-primary fw-bold border border-2 border-primary " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                <i class="bi bi-calendar-plus pe-2"></i><span class="d-none d-md-inline-block">Create new event</span>
+              <!-- Button desktop trigger modal -->
+              <button id="create-new-event" type="button" class="d-none d-lg-inline-block btn btn-outline-primary fw-bold border border-2 border-primary " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <i class="bi bi-calendar-plus pe-2"></i>Create new event</span>
               </button>
+
+              <!-- Button mobile trigger modal -->
+              <a id="create-new-event" class="d-block d-lg-none fs-2 fw-bold align-self-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <i class="bi bi-calendar-plus pe-2"></i>
+              </a>
 
               <!-- Modal -->
               <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
