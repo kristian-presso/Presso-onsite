@@ -1,0 +1,42 @@
+body {
+  background-color: antiquewhite;
+
+}
+
+header {
+  margin-bottom: 7%;
+}
+
+@media screen and (min-width: 1200px) {
+  nav .container {
+    width: 75%;
+  }
+  main .container {
+    width: 75%;
+}
+
+.card:hover {
+    transform: translate(4px, -4px);
+    box-shadow: -10px 10px 0 black;
+    transition: box-shadow 200ms ease 0s, transform 200ms ease 0s;
+  }
+
+#create-new-event:hover {
+    transform: translate(2px, -2px);
+    box-shadow: -4px 4px 0 0 lightblue;
+    transition: box-shadow 200ms ease 0s, transform 200ms ease 0s;
+
+  }
+
+nav {
+    margin-bottom: 5%;
+}
+
+#footer-link a {
+  text-decoration: none;
+}
+
+
+ul .active {
+  font-weight: bold;
+}
