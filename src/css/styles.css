@@ -7,7 +7,7 @@ header {
   margin-bottom: 7%;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   nav .container {
     width: 75%;
   }
@@ -21,16 +21,13 @@ header {
     transition: box-shadow 200ms ease 0s, transform 200ms ease 0s;
   }
 
+
 #create-new-event:hover {
     transform: translate(2px, -2px);
     box-shadow: -4px 4px 0 0 lightblue;
     transition: box-shadow 200ms ease 0s, transform 200ms ease 0s;
 
   }
-
-nav {
-    margin-bottom: 5%;
-}
 
 #footer-link a {
   text-decoration: none;
